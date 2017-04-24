@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Acidity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Acidity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#AdditionalHazards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#AdditionalHazards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#AdditionalHazards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Hazards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#ChemicalCompound -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#ChemicalCompound">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#CommonName -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#CommonName">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Corrosiveness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Corrosiveness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#AdditionalHazards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Fire -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Fire">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Hazards"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#FireClass -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#FireClass">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Fire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Flammability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Flammability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Fire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#FlashPoint -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#FlashPoint">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Fire"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Hazards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Hazards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Properties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Information -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Information">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#MSDS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#MSDS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#MSDS"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Manufacturer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Manufacturer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Information"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Properties -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Properties">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#MSDS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#StorageMeasures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#StorageMeasures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Properties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Toxicity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#Toxicity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/bendickman/ontologies/2017/3/untitled-ontology-2#AdditionalHazards"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
