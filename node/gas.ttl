@@ -1,0 +1,16 @@
+@prefix : <gas.ttl#> .
+@prefix msds: <http://github.com/dickmanben/cse551/msds.ttl#> .
+
+:GAS a msds:MSDS .
+:GAS msds:CommonName "WINDEX® ORIGINAL GLASS CLEANER" .
+:GAS msds:Manufacturer "S.C. Johnson and Son, Limited" .
+:GAS msds:Flashpoint "does not flash" .
+
+:GAS msds:Flammability  "0" .
+:GAS msds:Health "1" .
+:GAS msds:Reactivity "0" .
+:GAS msds:CommonName "WINDEX® ORIGINAL GLASS CLEANER" .
+:GAS msds:Manufacturer "S.C. Johnson and Son, Limited" .
+:GAS msds:Flammability  "0" .
+:GAS msds:Manufacturer "S.C. Johnson and Son, Limited" .
+:GAS msds:Fire "3" .

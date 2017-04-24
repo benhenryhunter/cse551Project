@@ -1,0 +1,14 @@
+@prefix : <bsoda.ttl#> .
+@prefix msds: <http://github.com/dickmanben/cse551/msds.ttl#> .
+
+:BSODA a msds:MSDS .
+:BSODA msds:CommonName "WINDEX® ORIGINAL GLASS CLEANER" .
+:BSODA msds:Manufacturer "S.C. Johnson and Son, Limited" .
+:BSODA msds:Flashpoint "does not flash" .
+
+:BSODA msds:Flammability  "0" .
+:BSODA msds:Health "1" .
+:BSODA msds:Reactivity "0" .
+:BSODA msds:CommonName "WINDEX® ORIGINAL GLASS CLEANER" .
+:BSODA msds:Manufacturer "S.C. Johnson and Son, Limited" .
+:BSODA msds:Flammability  "0" .
